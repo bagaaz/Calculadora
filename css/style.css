@@ -1,0 +1,9 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Ubuntu", sans-serif;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(90deg, #020024 0%, #160979 35%, #00d4ff 100%);
+}

@@ -1,0 +1,27 @@
+.calculator__display {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-around;
+  background-color: black;
+  border-radius: 5px 5px 0 0;
+  max-width: 500px;
+  min-height: 175px;
+}
+.calculator__display_previous {
+  overflow-wrap: break-word;
+  max-width: 480px;
+  color: #9c9c9c;
+  font-size: 2rem;
+  font-weight: 500;
+  margin: 0 10px;
+
+}
+.calculator__display_current {
+  overflow-wrap: break-word;
+  max-width: 480px;
+  color: #c7c7c7;
+  font-size: 3.5rem;
+  font-weight: 600;
+  margin: 0 10px;
+}
